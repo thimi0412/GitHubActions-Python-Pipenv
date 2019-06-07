@@ -50,11 +50,12 @@ main.workflow
 ```
 workflow "New workflow" {
   on = "push"
-  resolves = ["thimi0412/GitHubActions-Python-pipenv"]
+  resolves = ["thimi0412/GitHubActions-Python-Pipenv"]
 }
 
-action "thimi0412/GitHubActions-PythonLint" {
-  uses = "thimi0412/GitHubActions-Python-pipenv@master"
+action "thimi0412/GitHubActions-Python-Pipenv" {
+  uses = "thimi0412/GitHubActions-Python-Pipenv@master"
   args = "pipenv install --dev; pipenv run flake8 ."
 }
+
 ```
