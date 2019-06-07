@@ -1,4 +1,4 @@
-# GitHubActions-Python-pipenv
+# GitHubActions-Python-Pipenv
 Pipenv : https://pipenv-ja.readthedocs.io/
 
 a GitHubActions for Pipenv.
